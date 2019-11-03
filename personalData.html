@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>Личные данные пользователя</title>    
+</head>
+<body>
+    <header>
+        <div class="">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="page1.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="page2.html">Ссылки</a>
+                    </li>
+                    <li>
+                        <a href="page3.html">Описание</a>
+                    </li>
+                    <li class="login">
+                        <a href="login.html">Авторизация</a>
+                    </li>
+                    <li class="reg">
+                        <a href="registration.html">Регистрация</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <h1 align="center">Заполните личные данные пользователя</h1>
+        <form action="#" class="form">            
+            <p>
+                <label>Введите имя</label><br>
+                <input id="name" type="text" name="name" maxlength="22"></input>
+            </p>
+            <p>
+                <label>Введите фамилию</label><br>
+                <input id="surname" type="text" name="surname" maxlength="22"></input>
+            </p>
+            <p>
+                <label>Введите отчество</label><br>
+                <input id="middle name" type="text" name="middle name" maxlength="22"></input>
+            </p>
+            <p>
+                <label>Выберите пол</label><br>
+                <label><input name="sex" type="radio" checked>Мужской</label>
+                <label><input name="sex" type="radio">Женский</label>
+            </p>
+            <p>
+                <label>Выберите дату рождения</label><br>
+                <input type="date" id="Birthday" name="Birthday" required></input>
+            </p>
+            <p>
+                <label>Загрузите фотографию</label><br>
+                <input type="file" multiple accept="image/*,image/jpeg">
+            </p>
+            <p>
+                <label>Расскажите немного о себе:</label><br>
+                <textarea cols="50" rows="10" maxlength="150" wrap="hard"></textarea>
+            </p>
+            <p>
+                <label>Выберите любимый цвет</label><br>
+                <input type="color">
+            </p>
+            <p>
+                <label>Выберите любимое время года</label><br>           
+                <select>
+                    <option>Зима</option>
+                    <option>Весна</option>
+                    <option>Лето</option>
+                    <option>Осень</option>
+                </select>
+            </p>
+            <input type="submit" value="Сохранить данные">
+            <input type="reset" value="Отмена">
+        </form>
+    </div>
+</body>
+</html>

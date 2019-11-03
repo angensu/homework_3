@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body bgcolor="acecfa">
+        <header>
+                <div class="">
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="page1.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="page2.html">Ссылки</a>
+                            </li>
+                            <li>
+                                <a href="page3.html">Описание</a>
+                            </li>
+                            <li class="login">
+                                <a href="login.html">Авторизация</a>
+                            </li>
+                            <li class="reg">
+                                <a href="registration.html">Регистрация</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+    <a href="page1.html">На главную</a>
+    <hr>   
+    <div>
+        <form action="">
+            <fieldset style="border:1px rgb(74, 5, 131);border-style:groove;border-color: blueviolet; border-width: thick;">
+                <legend align="center"><strong><h2>ЗАРЕГИСТРИРУЙСЯ</h2></strong></legend>
+                <p align="center">
+                    <label for="login">придумайте логин</label>
+                    <input id="login" type="login" name="login" required minlength="3" maxlength="12" placeholder="Введите логин"></input>
+                </p>
+                <p align="center">
+                    <label for="login">введите email</label>
+                    <input id="login" type="email" name="email" required placeholder="Введите свой email"></input>
+                </p>
+                <p align="center">
+                    <label for="pass">Придумайте пароль</label>
+                    <input id="pass" type="password" name="password" required minlength="6" maxlength="16" placeholder="Введите пароль"></input>
+                </p>
+                <p align="center">
+                    <label for="passConf">Повторите пароль</label>
+                    <input id="passConf" type="password" name="password" required placeholder="Повторите пароль"></input>
+                </p>
+                <p align="center">
+                    <input type="file" multiple accept="image/*,image/jpeg">
+                </p>
+                <p align="center">
+                    <input type="submit" value="Зарегистрироваться">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
