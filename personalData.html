@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="">
+        <div class="" align="center">
             <nav>
                 <ul class="menu">
                     <li>
@@ -33,53 +33,65 @@
         </div>
     </header>
     <div>
-        <h1 align="center">Заполните личные данные пользователя</h1>
-        <form action="#" class="form">            
-            <p>
-                <label>Введите имя</label><br>
-                <input id="name" type="text" name="name" maxlength="22"></input>
-            </p>
-            <p>
-                <label>Введите фамилию</label><br>
-                <input id="surname" type="text" name="surname" maxlength="22"></input>
-            </p>
-            <p>
-                <label>Введите отчество</label><br>
-                <input id="middle name" type="text" name="middle name" maxlength="22"></input>
-            </p>
-            <p>
-                <label>Выберите пол</label><br>
-                <label><input name="sex" type="radio" checked>Мужской</label>
-                <label><input name="sex" type="radio">Женский</label>
-            </p>
-            <p>
-                <label>Выберите дату рождения</label><br>
-                <input type="date" id="Birthday" name="Birthday" required></input>
-            </p>
-            <p>
-                <label>Загрузите фотографию</label><br>
-                <input type="file" multiple accept="image/*,image/jpeg">
-            </p>
-            <p>
-                <label>Расскажите немного о себе:</label><br>
-                <textarea cols="50" rows="10" maxlength="150" wrap="hard"></textarea>
-            </p>
-            <p>
-                <label>Выберите любимый цвет</label><br>
-                <input type="color">
-            </p>
-            <p>
-                <label>Выберите любимое время года</label><br>           
-                <select>
-                    <option>Зима</option>
-                    <option>Весна</option>
-                    <option>Лето</option>
-                    <option>Осень</option>
-                </select>
-            </p>
-            <input type="submit" value="Сохранить данные">
-            <input type="reset" value="Отмена">
-        </form>
+        <section>
+            <h1 align="center">Заполните личные данные пользователя</h1>
+            <form action="#" class="form">  
+                <fieldset>       
+                    <p>
+                        <label>Введите имя<br>
+                            <input id="name" type="text" name="name" maxlength="22"></input>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Введите фамилию<br>
+                            <input id="surname" type="text" name="surname" maxlength="22"></input>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Введите отчество<br>
+                            <input id="middle name" type="text" name="middle name" maxlength="22"></input>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Выберите пол</label><br>
+                        <label><input name="sex" type="radio" checked>Мужской</label>
+                        <label><input name="sex" type="radio">Женский</label>
+                    </p>
+                    <p>
+                        <label>Выберите дату рождения<br>
+                            <input type="date" id="Birthday" name="Birthday" required></input>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Загрузите фотографию<br>
+                            <input type="file" multiple accept="image/*,image/jpeg">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Расскажите немного о себе:<br>
+                            <textarea cols="50" rows="10" maxlength="150" wrap="hard"></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Выберите любимый цвет<br>
+                            <input type="color">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Выберите любимое время года<br>           
+                            <select>
+                                <option>Зима</option>
+                                <option>Весна</option>
+                                <option>Лето</option>
+                                <option>Осень</option>
+                            </select>
+                        </label>
+                    </p>
+                    <input type="submit" value="Сохранить данные">
+                    <input type="reset" value="Отмена">
+                </fieldset> 
+            </form>
+        </section>
     </div>
 </body>
 </html>
